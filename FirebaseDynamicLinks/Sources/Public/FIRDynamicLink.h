@@ -83,6 +83,8 @@ NS_SWIFT_NAME(DynamicLink)
 */
 @property(nonatomic, copy, readonly) NSDictionary<NSString *, id> *parametersDictionary;
 
+- (instancetype)initWithParametersDictionary:(NSDictionary<NSString *, id> *)parameters;
+
 
 @end
 
